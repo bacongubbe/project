@@ -32,6 +32,8 @@ nav {
 
 article {
   margin-bottom: 60px;
+  flex: 1;
+  margin-bottom: 0;
 }
 
 .post-header {
@@ -44,6 +46,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
+  flex: 0 0 300px;
 }
 
 /*SMALLER SECTIONS*/
@@ -338,4 +341,11 @@ footer{
   font-size: 14px;
   font-weight: normal;
   font-style: italic;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
 }
